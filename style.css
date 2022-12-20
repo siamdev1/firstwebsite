@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+/* 
+font-family: 'Berkshire Swash', cursive;
+font-family: 'Manrope', sans-serif;
+ */
+
+header {
+    background: #000000;
+}
+.banner{
+    width: 100%;
+    height: 481px;
+    position: relative;
+}
+.banner_title{
+    position: absolute;
+    top: 138px;
+}
+.left_img img{
+    height: auto;
+    width: 100%;
+    padding-left: 15px;
+    top: 100px;
+}
+.banner_title h1 {
+    color: #FF5E19;
+    font-size: 76px;
+    font-family: 'Berkshire Swash', cursive;
+
+}
+.banner_title p {
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+main {
+    background: #000000e5;
+}
+
+.crd{
+    font-family: 'Manrope', sans-serif;
+}
+.crd h5{
+    font-size: 24px;
+    font-weight: bold;
+}
+.crd p{
+    font-size: 16px;
+}
+.crd a {
+    background: #015196;
+    padding: 8px 28px;
+    border-radius:50px;
+}
+
+.khela1 {
+    width: 100%;
+    height: 350px;
+    background-color: teal;
+    margin-bottom: 20px;
+}
+.khela2 {
+    width: 100%;
+    height: 400px;
+    background-color: orange;
+}
+.card_width{
+    width: 14rem;
+}
+
+
+@media (max-width:767px){
+    .crd h5{
+        font-size: 19px;
+    }
+    .crd p{
+        font-size: 14px;
+    }
+    .crd a{
+        background: #4848ee;
+        }
+}
